@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilostemas.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="barra">
+            <div id="elemento-barra" onclick="directorio(1,0)"><p id="barra-p-centrado">Unidad 1</p></div>
+            <div id="elemento-barra-activo" onclick="directorio(2,0)"><p id="barra-p-centrado">Unidad 2</p></div>
+            <div id="elemento-barra" onclick="directorio(4,0)"><p id="barra-p-centrado">Mi espacio</p></div>
+        </div>
+        <div class="cabeza">
+            <div id="anterior" onclick="directorio(2,1)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">7 al 13</div>
+            <div id="siguiente" onclick="directorio(2,3)"><img src="siguiente_icon.png" /></div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <p>
+                    7. new<br />
+                    Definición: Crea una instancia de un objeto definido por el usuario o de un tipo de objeto integrado que tenga un constructor.<br />
+                    Sintaxis: new Constructor(argumentos);<br />
+                    <br />
+                    8. Audio()<br />
+                    Definición: Constructor que crea y devuelve un nuevo elemento HTML audio utilizado para manejar la reproducción de sonido.<br />
+                    Sintaxis: new Audio(urlDelArchivoDeAudio);<br />
+                    <br />
+                    9. .play();<br />
+                    Definición: Método que intenta iniciar la reproducción del contenido multimedia (audio o vídeo).<br />
+                    Sintaxis: elementoMultimedia.play();<br />
+                    <br />
+                    10. document.querySelector().classList.add();<br />
+                    Definición: Busca el primer elemento que coincida con el selector dado y añade una o más clases CSS a su lista de clases.<br />
+                    Sintaxis: document.querySelector(selector).classList.add(clase1, clase2, ...);<br />
+                    <br />
+                    11. document.querySelector().style.backgroundColor<br />
+                    Definición: Establece o devuelve el color de fondo de un elemento seleccionado.<br />
+                    Sintaxis: document.querySelector(selector).style.backgroundColor = valorColor;<br />
+                    <br />
+                    12. document.querySelector().style.backgroundImage<br />
+                    Definición: Establece o devuelve la imagen de fondo de un elemento seleccionado.<br />
+                    Sintaxis: document.querySelector(selector).style.backgroundImage = "url('ruta_de_la_imagen')";<br />
+                    <br />
+                    13. document.querySelector().style.display<br />
+                    Definición: Establece o devuelve el comportamiento de visualización
+                    (por ejemplo, block, none, flex) de un elemento seleccionado.<br />
+                    Sintaxis: document.querySelector(selector).style.display = valorDisplay;<br />
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

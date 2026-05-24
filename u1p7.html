@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilostemas.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="barra">
+            <div id="elemento-barra-activo" onclick="directorio(1,0)"><p id="barra-p-centrado">Unidad 1</p></div>
+            <div id="elemento-barra" onclick="directorio(2,0)"><p id="barra-p-centrado">Unidad 2</p></div>
+            <div id="elemento-barra" onclick="directorio(4,0)"><p id="barra-p-centrado">Mi espacio</p></div>
+        </div>
+        <div class="cabeza">
+            <div id="anterior" onclick="directorio(1,6)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">Partes del Sistema Operativo</div>
+            <div id="siguiente" onclick="directorio(1,8)"><img src="siguiente_icon.png" /></div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <p>
+                    Kernel<br />
+                    Es el corazón del sistema operativo y se encarga de la gestión del hardware<br />
+                    Facilita la comunicación entre el software<br />
+                    <br />
+                    Gestión de los procesos<br />
+                    Se encarga de asignar memoria y administrar la ejecución de procesos<br />
+                    <br />
+                    Interfaz de usuario<br />
+                    Define la apariencia y experiencia de usuario en el dispositivo.<br />
+                    Incluye elementos como iconos botones gestos tacitles y transiciones<br />
+                    Material design en android, human interface guidelines en IOS<br />
+                    <br />
+                    Gestión de archivos<br />
+                    Maneja la organización de archivos y carpetas dentro del dispositivo.<br />
+                    Controla el acceso a la memoria interna, externa y almacenamiento en la nube.<br />
+                    <br />
+                    Gestión de la conectividad<br />
+                    Controla la comunicación con WIFI, Bluetooth, 5G, GPS, y NFC<br />
+                    <br />
+                    Sistema de seguridad<br />
+                    Protege el acceso al sistema mediente cifrado de datos y autentificación biométrica<br />
+                    <br />
+                    Gestión de energía<br />
+                    Optimiza el consumo energético para prologar la duración de batería.
+                    Controla funciones como el modo ahorro de energía y la carga rápida.<br />
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

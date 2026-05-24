@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilostemas.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="barra">
+            <div id="elemento-barra-activo" onclick="directorio(1,0)"><p id="barra-p-centrado">Unidad 1</p></div>
+            <div id="elemento-barra" onclick="directorio(2,0)"><p id="barra-p-centrado">Unidad 2</p></div>
+            <div id="elemento-barra" onclick="directorio(4,0)"><p id="barra-p-centrado">Mi espacio</p></div>
+        </div>
+        <div class="cabeza">
+            <div id="anterior" onclick="directorio(1,4)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">Capa de hardware</div>
+            <div id="siguiente" onclick="directorio(1,6)"><img src="siguiente_icon.png" /></div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <p>
+                    Arquitectura de un dispositivo móvil<br />
+                    Capa de Hardware<br />
+                    Es la base del dispositivo, incluye todos los componentes electrónicos que permiten su funcionamiento.<br />
+                    <br />
+                    Procesador CPU (unidad central de procesamiento)<br />
+                    Similar al cerebor del dispositivo Se encarga de ejecutar instrucciones y procesar datos.<br />
+                    Marcas populares Qualcomm Snapdragon, Apple A-Series, Exynos, MediaTek.<br />
+                    Tipos de procesadores:<br />
+                    ARM (eficientes en energía y rendimiento )<br />
+                </p>
+                <p>
+                    Memoria RAM:<br />
+                    Permite la ejecución de aplicaciones en tiempo real<br />
+                    Mientras más RAM, mayor fluidez en multitareas<br />
+                    Rango típico 2GB -16 gb<br />
+                    <br />
+                    Almacenamiento interno<br />
+                    Espacio donde se guardan apps, archivos y el sistema operativo<br />
+                    Puede ser eMMC (más lento) o UFS (más rápido)<br />
+                    Expandible con tarjetas microSD en algunos dispositivos.<br />
+                </p>
+                <p>
+                    Pantalla<br />
+                    Tipos: LCD, OLED, AMOLED, Super AMOLED<br />
+                    Resolución: HD, Full HD<br />
+                    <br />
+                    Batería:<br />
+                    Capacidad media en mAh (miliamperios por hora)<br />
+                    <br />
+                    Sensores integrados:<br />
+                    Acelerómetro Giroscópio GPS Sensor de proximidad Brújula digital
+                    Lector de huellas Reconocimiento facial para la seguridad.<br />
+                </p>
+                <p>
+                    Cámaras<br />
+                    Múltiples sensores: gran angular telefoto ultra gran angular<br />
+                    Resolución en MP: megapixeles y apertura focal<br />
+                    <br />
+                    Módulos de comunicación<br />
+                    WIFI (conexión inalámbrica a internet)<br />
+                    Bluetooth<br />
+                    NFC (pagos móviles)<br />
+                    5G,4G,3G (conectividad de datos móviles)<br />
+                    <br />
+                    Tarjeta gráfica<br />
+                    GPU (unidad de procesamiento gráfico)<br />
+                    <br />
+                    Renderiza imágenes y gráficos en juegos y apps.<br />
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilosquizzes2.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="cabeza">
+            <div id="regresar" onclick="directorio(3,0)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">Quiz 2</div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué hace la función setTimeout?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="2,1" id="respuesta" value="1" checked />
+                        Realiza operaciones automáticamente
+                    </label><br />
+                    <label for="2">
+                        <input type="radio" name="2,1" id="respuesta" value="2" />
+                        Ejecuta un bloque de código o una función después de que haya transcurrido un tiempo
+                    </label><br />
+                    <label for="3">
+                        <input type="radio" name="2,1" id="respuesta" value="3" />
+                        Método que intenta iniciar la reproducción del contenido multimedia
+                    </label><br />
+                    <label for="4">
+                        <input type="radio" name="2,1" id="respuesta" value="4" />
+                        Establece o devuelve el color de fondo de un elemento seleccionado.
+                    </label><br />
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué hace .play()?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="2,2" id="respuesta" value="1" checked />
+                        Ejecuta un bloque de código si, y solo si, una condición<br />
+                        especificada se evalúa como verdadera.
+                    </label><br />
+                    <label for="2">
+                        <input type="radio" name="2,2" id="respuesta" value="2" />
+                        Declara una variable local con ámbito de bloque
+                    </label><br />
+                    <label for="3">
+                        <input type="radio" name="2,2" id="respuesta" value="3" />
+                        Método que intenta iniciar la reproducción del contenido multimedia
+                    </label><br />
+                    <label for="4">
+                        <input type="radio" name="2,2" id="respuesta" value="4" />
+                        Busca el primer elemento que coincida con el selector dado y elimina <br />
+                        una o más clases CSS de su lista de clases.
+                    </label><br />
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué hace localStorage.setItem()?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="2,3" id="respuesta" value="1" checked>
+                        Redondea un número hacia abajo al entero más cercano<br />
+                        (devuelve el máximo entero menor o igual a un número dado).
+                    </label><br />
+                    <label for="2">
+                        <input type="radio" name="2,3" id="respuesta" value="2" />
+                        Añade un nuevo atributo o cambia el valor de un atributo<br />
+                        existente en un elemento seleccionado por su ID.
+                    </label><br />
+                    <label for="3">
+                        <input type="radio" name="2,3" id="respuesta" value="3" />
+                        Recupera el valor asociado a una clave específica guardada<br />
+                        previamente en el almacenamiento local del navegador.
+                    </label><br />
+                    <label for="4">
+                        <input type="radio" name="2,3" id="respuesta" value="4" />
+                        Guarda un par clave/valor en el almacenamiento local del navegador, permitiendo<br />
+                        que los datos persistan incluso después de cerrar la ventana.
+                    </label><br />
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué significa let en javascript?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="2,4" id="respuesta" value="1" checked>
+                        Declara una variable local con ámbito de bloque,<br />
+                        opcionalmente inicializándola a un valor (forma moderna y recomendada).
+                    </label><br />
+                    <label for="2">
+                        <input type="radio" name="2,4" id="respuesta" value="2" />
+                        Establece o devuelve el color de fondo de un elemento seleccionado.
+                    </label><br />
+                    <label for="3">
+                        <input type="radio" name="2,4" id="respuesta" value="3" />
+                        Constructor que crea y devuelve un nuevo elemento HTML de audio.
+                    </label><br />
+                    <label for="4">
+                        <input type="radio" name="2,4" id="respuesta" value="4" />
+                        Crea una instancia de un objeto definido por el usuario.
+                    </label><br />
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué significa var en javascript?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="2,5" id="respuesta" value="1" checked>
+                        Establece o devuelve el comportamiento de visualización<br />
+                        (por ejemplo, block, none, flex) de un elemento seleccionado.
+                    </label><br />
+                    <label for="2">
+                        <input type="radio" name="2,5" id="respuesta" value="2" />
+                        Declara una variable, opcionalmente inicializándola a un valor.<br />
+                        Tiene un ámbito de función o global
+                    </label><br />
+                    <label for="3">
+                        <input type="radio" name="2,5" id="respuesta" value="3" />
+                        Busca el primer elemento que coincida con el selector dado y <br />
+                        elimina una o más clases CSS de su lista de clases.
+                    </label><br />
+                    <label for="4">
+                        <input type="radio" name="2,5" id="respuesta" value="4" />
+                        Ejecuta (o invoca) una función previamente definida.
+                    </label><br />
+                </div>
+            </div>
+            <div class="barra">
+                <div id="elemento-barra-activo" onclick="obtenervalor2()"><p id="barra-p-centrado">Enviar</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

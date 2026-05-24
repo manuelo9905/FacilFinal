@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilostemas.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="barra">
+            <div id="elemento-barra-activo" onclick="directorio(1,0)"><p id="barra-p-centrado">Unidad 1</p></div>
+            <div id="elemento-barra" onclick="directorio(2,0)"><p id="barra-p-centrado">Unidad 2</p></div>
+            <div id="elemento-barra" onclick="directorio(4,0)"><p id="barra-p-centrado">Mi espacio</p></div>
+        </div>
+        <div class="cabeza">
+            <div id="anterior" onclick="directorio(1,7)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">Paradigmas de programacion</div>
+            <div id="siguiente" onclick="directorio(1,0)"><img src="siguiente_icon.png" /></div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <p id="elemento-contenido-2">
+                    Como en todo, siempre existe una alternativa para llegar a una solución, una vía alterna,
+                    una segunda opción, etc. De la misma manera, en la programación existen diferentes maneras o estilos de programar<br />
+                    <br />
+                    Los paradigmas de desarrollo móvil son enfoques, metodologías o estilos
+                    que se utilizan para crear aplicaciones para dispositivos móviles<br />
+                    <br />
+                    PWA<br />
+                    Son aplicaciones mejoradas con capacidades de instalacion y
+                    ejecucion sin conexion a internet asemejándose a las apps nativas<br />
+                    <br />
+                    Tecnologias y herramientas<br />
+                    Service worker apis de web app manifest<br />
+                    Frameworks como angular react y vue<br />
+                    <br />
+                    Ventajas<br />
+                    No requieren una instalacion desde una tienda<br />
+                    Funciona sin conexión<br />
+                    Se pueden actualizar facilmente<br />
+                    Desventajas<br />
+                    No tienen acceso completo a todas las funciones del dipositivo<br />
+                    Dependen del navegador<br />
+                    <br /><br />
+                    Hibridas<br />
+                    Permite crear una unica aplicación que se puede ejecutar en múltples plataformas,
+                    combinando tecnologías web con acceso a funciones nativas mediante herramientas de compilación<br />
+                    <br />
+                    Tecnologías y herramientas<br />
+                    Frameworks como ionic apache cordova<br />
+                    Phone gap<br />
+                    Basado en html css javascript<br />
+                    <br /><br />
+                    Frameworks multi plataforma<br />
+                    Este paradigma permite escribir un solo código y compilarlo en codigo nativo para cada sistema operativo<br />
+                    <br />
+                    Flutter<br />
+                    React native<br />
+                    Xamarin<br />
+                    <br />
+                    Ventajas: codigo compartido entre plataformas rendimiento similar al nativo<br />
+                    Mayor rapidez de desarrollo<br />
+                    <br />
+                    Desventajas<br />
+                    Puede haber problemas de compatibilidad con algunas funciones nativas<br />
+                    Mayor curva de aprendizaje en algunos frameworks<br />
+                    <br /><br />
+                    Nativas<br />
+                    Este paradigma se basa en el desarrollo de aplicaciones específicamente para
+                    un sistema operativo móvil como android o IOS utilizando lenguajes y herramientas
+                    oficiales de cada plataforma.<br />
+                    <br />
+                    Tecnología y herramientas<br />
+                    Android java, kotlin, android studio<br />
+                    Ios: swift, objective c xcode<br />
+                    <br />
+                    Ventajas:<br />
+                    Maximo rendimiento y eficiencia<br />
+                    Acceso completo a funcionalidades del hardware y software del dispositivo<br />
+                    Mejor ux<br />
+                    <br />
+                    Desventajas:<br />
+                    Se requiere desarrollar por separado para cada plataforma mayor tiempo y costo de desarrollo<br />
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

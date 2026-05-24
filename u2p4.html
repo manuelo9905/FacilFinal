@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="estilostemas.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="barra">
+            <div id="elemento-barra" onclick="directorio(1,0)"><p id="barra-p-centrado">Unidad 1</p></div>
+            <div id="elemento-barra-activo" onclick="directorio(2,0)"><p id="barra-p-centrado">Unidad 2</p></div>
+            <div id="elemento-barra" onclick="directorio(4,0)"><p id="barra-p-centrado">Mi espacio</p></div>
+        </div>
+        <div class="cabeza">
+            <div id="anterior" onclick="directorio(2,3)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">20 al 25</div>
+            <div id="siguiente" onclick="directorio(2,0)"><img src="siguiente_icon.png" /></div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <p>
+                    20. document.getElementById('Id').value<br />
+                    Definición: Obtiene o establece el valor actual de un elemento de formulario
+                    (como un input, select o textarea) basándose en su ID.<br />
+                    Sintaxis: document.getElementById(id).value o document.getElementById(id).value = nuevoValor;<br />
+                    <br />
+                    21. localStorage.getItem('item')<br />
+                    Definición: Recupera el valor asociado a una clave
+                    específica guardada previamente en el almacenamiento local del navegador.<br />
+                    Sintaxis: localStorage.getItem(nombreDeLaClave);<br />
+                    <br />
+                    22. document.querySelector('clase,id').innerHTML = ''<br />
+                    Definición: Obtiene o establece el contenido HTML (incluyendo etiquetas)
+                    interno de un elemento que coincide con el selector especificado.<br />
+                    Sintaxis: document.querySelector(selector).innerHTML o document.querySelector(selector).innerHTML = nuevoHTML;<br />
+                    <br />
+                    23. document.querySelector('#id').setAttribute()<br />
+                    Definición: Añade un nuevo atributo o cambia el valor de un atributo existente en un elemento seleccionado por su ID.<br />
+                    Sintaxis:document.querySelector(selector)<br />.setAttribute(nombreDelAtributo, valorDelAtributo);<br />
+                    <br />
+                    24. Math.floor()<br />
+                    Definición: Redondea un número hacia abajo al entero más cercano (devuelve el máximo entero menor o igual a un número dado).<br />
+                    Sintaxis: Math.floor(numero);<br />
+                    <br />
+                    25. Math.random()<br />
+                    Definición: Devuelve un número de coma flotante pseudoaleatorio, comprendido en el rango de 0 (incluido) a 1 (excluido).<br />
+                    Sintaxis: Math.random();<br />
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

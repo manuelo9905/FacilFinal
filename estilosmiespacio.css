@@ -1,0 +1,106 @@
+﻿/*Estilos mi espacio*/
+
+:root {
+    --color-principal: #ffdb1e;
+    --color-secundario: #80c2ff;
+    --blanco: #ffffff;
+    --gris: #fafafa;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Work Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-unidad {
+    width: calc(96vw - 2vh);
+    height: calc(95vh - 2vh);
+    margin: 2vh;
+    background-color: var(--blanco);
+}
+
+.cabeza {
+    display: flex;
+    width: calc(96vw - 2vh);
+    height: calc(12vh - 2vh);
+}
+
+#titulo {
+    width: calc(96vw - 2vh);
+    height: calc(10vh - 2vh);
+    font-size: 60px;
+    text-align: center;
+}
+
+.contenido {
+    width: calc(96vw - 2vh);
+    height: calc(70vh - 2vh);
+    margin-top: 1vh;
+}
+
+.barra-quiz {
+    margin: 7vh 0vh;
+    width: calc(96vw - 2vh);
+    height: calc(8vh - 2vh);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0.8px 5px -1.8px #000000;
+    background-color: var(--color-principal);
+    margin: calc(((10vh - 2vh) - 24px) / 2) 0vh;
+    font-size: 40px;
+}
+
+#elemento-contenido {
+    margin: 1vh 0vh;
+    width: calc(96vw - 2vh);
+    height: calc(30vh - 2vh);
+    border-radius: 7px;
+    box-shadow: 0px 0.8px 5px -2.5px #000000;
+}
+
+    #elemento-contenido p {
+        text-align: center;
+        font-size: 30px;
+        margin: 1vh 1vh;
+    }
+
+#canvas {
+    width: calc(96vw - 2vh);
+    height: calc(12vh - 2vh);
+}
+
+#barra-progreso{
+    width: calc(80vw - 2vh);
+    height: calc(20vh - 2vh);
+}
+
+.barra {
+    margin: 7vh 0vh;
+    background-color: var(--gris);
+    width: calc(96vw - 2vh);
+    height: calc(10vh - 2vh);
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0.8px 5px -1.8px #000000;
+}
+
+#elemento-barra-activo {
+    margin-left: 10px;
+    width: calc(((96vw - 2vh) - 20px) / 3);
+    height: 100%;
+    background-color: var(--color-principal)
+}
+
+#elemento-barra {
+    width: calc(((96vw - 2vh) - 20px) / 3);
+    height: 100%;
+}
+
+#barra-p-centrado {
+    margin: calc(((10vh - 2vh) - 24px) / 2) 0vh;
+    font-size: 23px;
+}

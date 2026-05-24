@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Quiz 1</title>
+    <link rel="stylesheet" type="text/css" href="estilosquizzes.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="Scripts.js"></script>
+
+</head>
+<body>
+    <div class="bg-unidad">
+        <div class="cabeza">
+            <div id="regresar" onclick="directorio(3,0)"><img src="regresar_icon.png" /></div>
+            <div id="titulo">Quiz 1</div>
+        </div>
+        <div class="contenido">
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Cuál era un lenguaje básico para dispositivos móviles en 1990?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="1,1" id="respuesta" value="1" checked />
+                        C#
+                    </label>
+                    <label for="2">
+                        <input type="radio" name="1,1" id="respuesta" value="2" />
+                        React
+                    </label>
+                    <label for="3">
+                        <input type="radio" name="1,1" id="respuesta" value="3" />
+                        C native
+                    </label>
+                    <label for="4">
+                        <input type="radio" name="1,1" id="respuesta" value="4" />
+                        Java ME
+                    </label>
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué porcentaje de publicidad se destina a dispostivos móviles?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="1,2" id="respuesta" value="1" checked />
+                        50%
+                    </label>
+                    <label for="2">
+                        <input type="radio" name="1,2" id="respuesta" value="2" />
+                        60%
+                    </label>
+                    <label for="3">
+                        <input type="radio" name="1,2" id="respuesta" value="3" />
+                        70%
+                    </label>
+                    <label for="4">
+                        <input type="radio" name="1,2" id="respuesta" value="4" />
+                        80%
+                    </label>
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué empresa desarrollo tik tok?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="1,3" id="respuesta" value="1" checked>
+                        byte funk
+                    </label>
+                    <label for="2">
+                        <input type="radio" name="1,3" id="respuesta" value="2" />
+                        OpenAI
+                    </label>
+                    <label for="3">
+                        <input type="radio" name="1,3" id="respuesta" value="3" />
+                        nvidia
+                    </label>
+                    <label for="4">
+                        <input type="radio" name="1,3" id="respuesta" value="4" />
+                        byte dance
+                    </label>
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Qué categoria de aplicaciones móviles NO se menciona en el texto?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="1,4" id="respuesta" value="1" checked>
+                        Redes sociales y comunicación
+                    </label>
+                    <label for="2">
+                        <input type="radio" name="1,4" id="respuesta" value="2" />
+                        Transporte
+                    </label>
+                    <label for="3">
+                        <input type="radio" name="1,4" id="respuesta" value="3" />
+                        Salud y bienestar
+                    </label>
+                    <label for="4">
+                        <input type="radio" name="1,4" id="respuesta" value="4" />
+                        Productividad de trabajo
+                    </label>
+                </div>
+            </div>
+            <div id="elemento-contenido">
+                <div id="pregunta">
+                    ¿Las Internet of Things entran en la clasificación de dispositivos móviles?
+                </div>
+                <div id="respuestas">
+                    <label for="1">
+                        <input type="radio" name="1,5" id="respuesta" value="1" checked>
+                        Si
+                    </label>
+                    <label for="2">
+                        <input type="radio" name="1,5" id="respuesta" value="2" />
+                        No
+                    </label>
+                    <label for="3">
+                        <input type="radio" name="1,5" id="respuesta" value="3" />
+                        No sé
+                    </label>
+                    <label for="4">
+                        <input type="radio" name="1,5" id="respuesta" value="4" />
+                        Tal vez
+                    </label>
+                </div>
+            </div>
+            <div class="barra">
+                <div id="elemento-barra-activo" onclick="obtenervalor()"><p id="barra-p-centrado">Enviar</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
